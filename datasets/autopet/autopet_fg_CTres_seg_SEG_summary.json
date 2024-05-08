@@ -1,0 +1,10 @@
+{
+    "description": "Summary of autopet: CTres foreground and SEG Intersection",
+    "foreground_mean": -79.55364831013831,
+    "foreground_std": 158.5583080580807,
+    "spacing_median": [
+        2.0364201068878174,
+        2.0364201068878174,
+        3.0
+    ]
+}

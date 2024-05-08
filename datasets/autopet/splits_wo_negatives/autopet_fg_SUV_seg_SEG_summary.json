@@ -1,0 +1,10 @@
+{
+    "description": "Summary of autopet: SUV foreground and SEG Intersection",
+    "foreground_mean": 1.8123563715266162,
+    "foreground_std": 0.3314723210946581,
+    "spacing_median": [
+        2.0364201068878174,
+        2.0364201068878174,
+        3.0
+    ]
+}

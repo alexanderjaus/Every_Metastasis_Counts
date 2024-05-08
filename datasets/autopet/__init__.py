@@ -1,0 +1,1 @@
+from .generate_autopet_json import get_splits
