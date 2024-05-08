@@ -218,7 +218,7 @@ def main(args):
         
     
 
-    nof_train_iterations = config["TRAINING"]["NOF_ITERATIONS"]
+    nof_train_epochs = config["TRAINING"]["NOF_EPOCHS"]
 
     logger = TensorBoardLogger(save_dir=log_dir)
 
@@ -226,7 +226,7 @@ def main(args):
         model=model,
         loss=loss_function,
         eval_metrics=eval_metrics,
-        max_iterations=nof_train_iterations,
+        max_iterations=nof_train_epochs,
         **config["TRAINING"]
     )
 
